@@ -27,7 +27,7 @@ function App() {
         <p id='paragraph' className='text-4xl max-sm:text-2xl max-h-[30%] text-center'>{para}</p>
         <div className='flex flex-wrap w-full justify-center items-center mt-5 gap-3'>
           <button className='px-5 py-3 bg-red-400 rounded-xl border-black border-2 font-serif font-bold' onClick={handleSad}>Sad</button>
-          <button className='px-5 py-3 bg-red-400 rounded-xl border-black border-2 font-serif font-bold' onClick={handleAngery}>Angery</button>
+          
           <button className='px-5 py-3 bg-red-400 rounded-xl border-black border-2 font-serif font-bold' onClick={handleLonely}>Alone</button>
         </div>
       </div>
